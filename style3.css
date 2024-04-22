@@ -60,9 +60,9 @@ body {
   {
     background: url(./img/Nothing.jpg)no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 200px;
     background-position: 50% 50%;
-    width: 400px;
+    width: 200px;
     align-items: center;
     justify-content: center;
     margin-left: 00px;
