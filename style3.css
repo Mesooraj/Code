@@ -70,6 +70,17 @@ body {
     border: none;
     cursor: pointer;
 }
+.wishlist{
+  font-size: 23px;
+  margin-top: -25px;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+.mone{
+  width:100000px;
+  height: 1px;
+  margin-left: -10px;
+}
   @media only screen and (max-width:780px){
     .main
   {
