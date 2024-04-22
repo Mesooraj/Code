@@ -94,7 +94,8 @@ body {
     font-size: 20px;
    }
    .login-box button{
-    margin-top: 300px;
-    width: 250px;
+    margin-top: 260px;
+    width: 245px;
+    margin-left: -10px;
      }
   }
