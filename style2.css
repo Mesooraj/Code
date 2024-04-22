@@ -10,7 +10,7 @@
   }
   
   .login-box {
-    background: #fff;
+    background: #ffffff;
     padding: 30px;
     max-width: 400px; /* Adjust the max-width as needed */
     margin: 0 auto; /* Center the login box horizontally */
@@ -51,7 +51,7 @@
   .login-box p {
     text-align: left;
     font-size: 14px;
-    color: #ffffff;
+    color: #131313;
     margin: 30px 0 10px;
   }
   
