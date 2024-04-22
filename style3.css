@@ -60,12 +60,19 @@ body {
   {
     background: url(./img/Nothing.jpg)no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 400px;
     background-position: 50% 50%;
-    width: 300px;
+    width: 400px;
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 00px;
+    margin-top: 00px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  footer {
+    display: none;
   }
   }
