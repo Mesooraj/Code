@@ -55,6 +55,21 @@ body {
     margin-left: 500px;
     margin-top: 150px;
   }
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+  .login-box button {
+    background-color: #f02525;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
   @media only screen and (max-width:780px){
     .main
   {
@@ -76,6 +91,10 @@ body {
     display: none;
   }
   .fa-arrow-left{
-    font-size: 15px;
+    font-size: 20px;
    }
+   .login-box button{
+    margin-top: 300px;
+    width: 250px;
+     }
   }
