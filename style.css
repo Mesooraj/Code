@@ -19,8 +19,10 @@ nav {
   margin: 0 auto;
  font-family: sans-serif;
  color: #ffffff;
+ position: fixed;
 
 }
+
 .nav-left,
 .nav-right {
   display: flex;
@@ -86,14 +88,29 @@ nav {
   border-radius: 50%;
   display: none;
 }
-.main
+body
 {
-  background: url(./img/wallpaperflare.com_wallpaper\ \(3\).jpg)no-repeat;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  width: 100%;
+  background-color: rgb(249, 249, 249);
 }
+main {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  margin-top: 00px;
+  box-shadow: 0px 0px 3px gray;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styles for individual slides */
+.slide {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute; /* Adjust the border radius as needed for curved edges */
+}
+
+/* Styles for navigation buttons */
 
     /* media query */
 
@@ -121,6 +138,15 @@ nav {
         display: block; 
         font-size: 20px;
         color: #ffffff;
+      }
+      main {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: 00px;
+        box-shadow: 0px 0px 3px rgb(68, 67, 67);
+        position: relative;
+        overflow: hidden;
       }
 
       
