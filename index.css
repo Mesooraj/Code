@@ -1,26 +1,34 @@
+/* Reset styles for all elements */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-header {
+
+/* Styles for the fixed header */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 80px;
+  height: 80px; /* Adjust as needed */
   background-color: rgb(0, 0, 0);
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
+  z-index: 1000;
 }
+
+/* Styles for navigation menu */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 94%;
   margin: 0 auto;
- font-family: sans-serif;
- color: #ffffff;
- position: fixed;
-
+  font-family: sans-serif;
+  color: #ffffff;
+  position: fixed;
 }
 
 .nav-left,
@@ -29,58 +37,60 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.img {
-    width: 50px;
 
+.img {
+  width: 50px;
 }
+
 .nav-left ul li {
   list-style: none;
   display: inline-block;
   margin: 0 15px;
 }
-.search-bar
-{
+
+/* Styles for search bar */
+.search-bar {
   width: 350px;
   line-height: 40px;
   border-radius: 4px;
   background: #ffffff;
 }
-.search-bar input
-{
+
+.search-bar input {
   background: transparent;
   border: 0;
   outline: none;
-  width: 85%; 
+  width: 85%;
   font-size: 12px;
 }
-.nav-right .search-bar i
-{
+
+.nav-right .search-bar i {
   font-size: 13px;
   color: #727070;
   margin-right: 15px;
   margin-left: 10px;
 }
-.nav-right div
-{
+
+.nav-right div {
   margin: 0 10px;
   text-align: center;
-
 }
-.nav-right div p
-{
+
+.nav-right div p {
   font-size: 12px;
   font-weight: 700;
   color: #535252;
 }
-.nav-right div i
-{
+
+.nav-right div i {
   font-size: 18px;
   color: #535252;
 }
-.nav-right div ion-icon{
+
+.nav-right div ion-icon {
   display: none;
-  
 }
+
 .nav-left i {
   font-size: 20px;
   background-color: #f1efef;
@@ -88,15 +98,18 @@ nav {
   border-radius: 50%;
   display: none;
 }
-body
-{
+
+/* Body styles */
+body {
   background-color: rgb(249, 249, 249);
 }
+
+/* Main content styles */
 main {
   width: 100%;
   height: 400px;
   margin: auto;
-  margin-top: 00px;
+  margin-top: 80px;
   box-shadow: 0px 0px 3px gray;
   position: relative;
   overflow: hidden;
@@ -107,77 +120,87 @@ main {
   width: 100%;
   height: 100%;
   transition: 1s;
-  position: absolute; /* Adjust the border radius as needed for curved edges */
+  position: absolute;
 }
+
+/* Styles for footer */
 footer {
-  background-color: #ccc;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 200px;
+  padding: 20px; /* Adjust padding as needed */
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 35px;
+  height: auto; /* Adjust height as needed */
   font-size: 13px;
 }
-footer p{
+
+footer p {
   margin-top: -7px;
 }
-/* Styles for navigation buttons */
 
-    /* media query */
+/* Media query for smartphones */
+@media only screen and (max-width: 768px) {
+  /* Hide navigation menu on small screens */
+  .nav-menu {
+    display: none;
+  }
 
-    @media only screen and (max-width:700px){
-       .nav-menu{
-           display: none;
-      }
+  /* Display hamburger icon */
+  .nav-left i {
+    display: block;
+  }
 
-      .nav-left i {
-        display: block;
-      }
-      header{
-        height: 60px;
-      }
-      .search-bar{
-        display: none;
-      }
-      .nav-right div{
-        margin: 0 8px;
-      }
-      .nav-right div p{
-        font-size: 10px;
-      }
-      .nav-right div ion-icon{
-        display: block; 
-        font-size: 20px;
-        color: #ffffff;
-      }
-      main {
-        width: 100%;
-        height: 130px;
-        margin: auto;
-        margin-top: 00px;
-        box-shadow: 0px 0px 3px rgb(68, 67, 67);
-        position: relative;
-        overflow: hidden;
-      }
+  /* Adjust header height for small screens */
+  header {
+    height: 60px;
+  }
 
-      
-    }
-    /* tablet sc */
-    
-    @media only screen and (max-width:1200px){
-      .nav-menu{
-          display: none;
-     }
+  /* Hide search bar on small screens */
+  .search-bar {
+    display: none;
+  }
 
-     .nav-left i {
-       display: block;
-     }
-     header{
-       height: 60px;
-     }
-     .search-bar{
-       display: none;
-     }
-   }
+  /* Adjust margin for right side navigation items */
+  .nav-right div {
+    margin: 0 8px;
+  }
+
+  /* Adjust font size for navigation text */
+  .nav-right div p {
+    font-size: 10px;
+  }
+
+  /* Display ion-icons for right side navigation on small screens */
+  .nav-right div ion-icon {
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  /* Adjust main content height and margin for small screens */
+  main {
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    margin-top: 81px;
+    box-shadow: 0px 0px 3px rgb(68, 67, 67);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Adjust footer styles for small screens */
+  footer {
+    background-color: #02f6c1;
+    color: rgb(231, 3, 3);
+    text-align: center;
+    padding: 10px; /* Adjust padding for smaller screens */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto; /* Let the height adjust automatically */
+    font-size: 13px;
+    margin-top: 410px; /* Adjust margin-top as needed */
+  }
+}
