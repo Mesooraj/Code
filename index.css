@@ -192,8 +192,8 @@ footer p {
 
   /* Adjust footer styles for small screens */
   footer {
-    background-color: #02f6c1;
-    color: rgb(231, 3, 3);
+    background-color: #f4f7f6;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px; /* Adjust padding for smaller screens */
     left: 0;
