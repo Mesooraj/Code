@@ -40,6 +40,7 @@ nav {
 
 .img {
   width: 50px;
+  margin-left: -50px;
 }
 
 .nav-left ul li {
@@ -101,7 +102,7 @@ nav {
 
 /* Body styles */
 body {
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Main content styles */
@@ -202,5 +203,9 @@ footer p {
     height: auto; /* Let the height adjust automatically */
     font-size: 13px;
     margin-top: 410px; /* Adjust margin-top as needed */
+  }
+  .img {
+    width: 50px;
+    margin-left: -50px;
   }
 }
