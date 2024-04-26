@@ -10,7 +10,7 @@ body {
     padding: 10px 20px;
     width: 10;
     position: relative;
-    height: 60px;
+    height: 40px;
   }
   
   section {
@@ -28,27 +28,32 @@ body {
     gap: 20px;
   }
   
-  .dress-card {
+  .dress-card 
+  {
     border: 1px solid #ccc;
     padding: 10px;
   }
   
   /* Optional styles for dress images */
-  .dress-card img {
+  .dress-card img 
+  {
     max-width: 100%;
     height: auto;
   }
   
   /* Optional styles for dress titles */
-  .dress-card h3 {
+  .dress-card h3 
+  {
     margin-top: 0;
   }
   
   /* Optional styles for dress prices */
-  .dress-card p:last-child {
+  .dress-card p:last-child 
+  {
     font-weight: bold;
     color: #333;
   }
-  .img{
+  .img
+  {
     height: 8px;
   }
