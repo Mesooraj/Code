@@ -304,6 +304,14 @@ section {
   margin-top: -5px;
   font-size: 15px;
 }
+.free
+{
+  display: none;
+}
+.free h4
+{
+  display: none;
+} 
 
 /* Media query for smartphones */
 @media only screen and (max-width: 768px) {
@@ -354,22 +362,24 @@ section {
     position: relative;
     overflow: hidden;
   }
-
-  /* Adjust footer styles for small screens */
-  footer {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 10px; /* Adjust padding for smaller screens */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto; /* Let the height adjust automatically */
-    font-size: 13px;
-    margin-top: 410px; /* Adjust margin-top as needed */
-  }
   .img {
     width: 50px;
     margin-left: -50px;
   }
+  .recommended-dresses {
+    display: none;
+  }
+  .free
+{
+  display: block;
+}
+.free h4
+{
+  display: block;
+  margin-top: -120px;
+  margin-left: 175px;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
 }
