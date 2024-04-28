@@ -168,7 +168,9 @@ main {
     display: block;
     font-size: 20px;
     color: #ffffff;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: -20px;
+    font-size: 24px;
   }
   /* Adjust main content height and margin for small screens */
   main {
