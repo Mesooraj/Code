@@ -102,7 +102,7 @@ nav {
 
 /* Body styles */
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #ccc;
 }
 
 /* Main content styles */
@@ -168,8 +168,8 @@ main {
     display: block;
     font-size: 20px;
     color: #ffffff;
+    margin-left: 5px;
   }
-
   /* Adjust main content height and margin for small screens */
   main {
     width: 100%;
