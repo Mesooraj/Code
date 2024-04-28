@@ -171,7 +171,7 @@ main {
   /* Adjust main content height and margin for small screens */
   main {
     width: 100%;
-    height: 170px;
+    height: 140px;
     margin: auto;
     position: relative;
     overflow: hidden;
