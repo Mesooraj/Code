@@ -206,6 +206,7 @@ main {
   .Zero
 {
   display: ruby;
-  margin-left: 30px;
+  margin-left: -20px;
+  display: flex;
 }
 }
