@@ -123,195 +123,6 @@ main {
   transition: 1s;
   position: absolute;
 }
-section {
-  padding: 20px;
-}
-.recommended-dresses {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 20px;
-}
-
-.dress-card10
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}
-.dress-card9
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}
-.dress-card8
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}.dress-card7
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}.dress-card6
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}.dress-card5
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}.dress-card4
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}.dress-card3
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}.dress-card2
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-  
-}.dress-card1
-{
-  border: 2px solid #ccc;
-  border-radius: 100%;
-  padding: 20px;
-  width: 90px;
-  height: 90px;
-}
-
-/* Optional styles for dress images */
-.dress-card10 img 
-{
-  max-width: 220px;
-  height: 113px;
-  margin-top: -37px;
-  margin-left: -34px;
-  border-radius: 100%;
-}
-.dress-card9 img 
-{
-  max-width: 220px;
-  height: 111.9px;
-  margin-top: -31px;
-  margin-left: -31px;
-  border-radius: 100%;
-}
-.dress-card8 img 
-{
-  max-width: 220px;
-  height: 107px;
-  margin-top: -28px;
-  margin-left: -28px;
-  border-radius: 100%;
-}.dress-card7 img 
-{
-  max-width: 250px;
-  height: 107px;
-  margin-top: -30.5px;
-  margin-left: -49px;
-  border-radius: 100%;
-}.dress-card6 img 
-{
-  max-width: 250px;
-  height: 107px;
-  margin-top: -30px;
-  margin-left: -51px;
-  border-radius: 100%;
-}.dress-card5 img 
-{
-  max-width: 250px;
-  height: 107px;
-  margin-top: -31px;
-  margin-left: -51px;
-  border-radius: 100%;
-}.dress-card4 img 
-{
-  max-width: 250px;
-  height: 104px;
-  margin-top: -29.5px;
-  margin-left: -50.5px;
-  border-radius: 100%;
-}.dress-card3 img 
-{
-  max-width: 250px;
-  height: 104px;
-  margin-top: -28.5px;
-  margin-left: -49px;
-  border-radius: 100%;
-}.dress-card2 img 
-{
-  max-width: 220px;
-  height: 100px;
-  margin-top: -25.9px;
-  margin-left: -45.5px;
-  border-radius: 100%;
-}
-.dress-card1 img{
-  max-width: 250px;
-  height: 100px;
-  margin-top: -26.5px;
-  margin-left: -46.6px;
-  border-radius: 100%;
-}
-
-/* Optional styles for dress titles */
-.dress-card h3 
-{
-  margin-top: 0;
-}
-
-/* Optional styles for dress prices */
-.dress-card p:last-child 
-{
-  font-weight: bold;
-  color: #333;
-}
-.dress-card9 p{
-   margin-top: -6px;
-}
-.dress-card10 p{
-  margin-top: -0px;
-}
-.dress-card8 p{
-  margin-top: -5px;
-  font-size: 15px;
-}
-.free
-{
-  display: none;
-}
-.free h4
-{
-  display: none;
-} 
 
 /* Media query for smartphones */
 @media only screen and (max-width: 768px) {
@@ -350,68 +161,69 @@ section {
     display: block;
     font-size: 20px;
     color: #ffffff;
+    margin-left: -100px;
   }
 
   /* Adjust main content height and margin for small screens */
   main {
-    width: 100%;
+    width: 386px;
     height: 130px;
     margin: auto;
     position: relative;
     overflow: hidden;
     margin-top: 0.1px;
+    margin-left: -10px;
   }
+
+  /* Adjust styles for specific elements */
   .img {
     width: 10px;
     margin-left: -50px;
     margin-top: -190px;
     height: 10px;
   }
-  .recommended-dresses {
-    display: none;
-  }
-  .free 
-  {
-  display: block;
-  margin-top: 60px;
-  }
-  .free h4
-  {
-  display: block;
-  margin-top: -100px;
-  margin-left: 175px;
-  }
-  .men007{
+
+  .men007 {
     margin-top: 60px;
   }
-  .women007{
-   margin-top: -50px;
-   margin-left: 180px;
+
+  .women007 {
+    margin-top: -50px;
+    margin-left: 178px;
   }
-  .men007 button{
-  transition-duration: 0.4s;
-  width: 50%;
-  height: 50px;
-  max-width: 190px; /* Set a max-width if needed */
-  max-height: 80px; /* Set a max-height if needed */
-  border: none;
-  background-color: #ff1a1a; /* Default background color */
-}
-.women007 button {
-  transition-duration: 0.4s;
-  width: 3000px;
-  height: 50px;
-  max-width: 200px; /* Set a max-width if needed */
-  max-height: 50px; /* Set a max-height if needed */
-  border: none;
-  background-color: #0651ff; /* Default background color */
-}
-.men007 button:hover{
-  background-color: #f400f0;
-  color: #fff;
-}
-.women007 button:hover {
-  background-color: #03ff9e;
-  color: #fff;
-}
+
+  /* Adjust button styles */
+  .men007 button,
+  .women007 button {
+    transition-duration: 0.4s;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ccc; /* Default background color */
+    max-width: 200px; /* Set a max-width if needed */
+    max-height: 50px; /* Set a max-height if needed */
   }
+
+  .men007 button:hover,
+  .women007 button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  /* Hide or show specific elements */
+  .recommended-dresses,
+  .free h4 {
+    display: none;
+  }
+
+  .free {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .free h4 {
+    display: block;
+    margin-top: -100px;
+    margin-left: 175px;
+  }
+}
