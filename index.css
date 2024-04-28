@@ -199,15 +199,16 @@ main {
     width: 200px;
     height: 50px;
     border: none;
-    background-color: #ccc; /* Default background color */
+    background-color: #000000; /* Default background color */
     max-width: 200px; /* Set a max-width if needed */
     max-height: 50px; /* Set a max-height if needed */
+    color: #ffffff;
   }
 
   .men007 button:hover,
   .women007 button:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
   }
 
   /* Hide or show specific elements */
