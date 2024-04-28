@@ -123,7 +123,12 @@ main {
   transition: 1s;
   position: absolute;
 }
-
+.button,
+.button1{
+  display: none;
+}{
+  display: none;
+}
 /* Media query for smartphones */
 @media only screen and (max-width: 768px) {
   /* Hide navigation menu on small screens */
@@ -161,18 +166,16 @@ main {
     display: block;
     font-size: 20px;
     color: #ffffff;
-    margin-left: -100px;
   }
 
   /* Adjust main content height and margin for small screens */
   main {
-    width: 386px;
-    height: 130px;
+    width: 100%;
+    height: 170px;
     margin: auto;
     position: relative;
     overflow: hidden;
-    margin-top: 0.1px;
-    margin-left: -10px;
+    margin-top: 61px;
   }
 
   /* Adjust styles for specific elements */
@@ -182,35 +185,6 @@ main {
     margin-top: -190px;
     height: 10px;
   }
-
-  .men007 {
-    margin-top: 60px;
-  }
-
-  .women007 {
-    margin-top: -50px;
-    margin-left: 178px;
-  }
-
-  /* Adjust button styles */
-  .men007 button,
-  .women007 button {
-    transition-duration: 0.4s;
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: #000000; /* Default background color */
-    max-width: 200px; /* Set a max-width if needed */
-    max-height: 50px; /* Set a max-height if needed */
-    color: #ffffff;
-  }
-
-  .men007 button:hover,
-  .women007 button:hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
-
   /* Hide or show specific elements */
   .recommended-dresses,
   .free h4 {

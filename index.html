@@ -43,29 +43,71 @@
             ></a>
           </div>
           <div class="be">
-            <a href="login.html"
-              ><i class="fa-regular fa-user" style="color: #ffffff"></i
+            <a href="login.html"><i class="fa-regular fa-user" style="color: #ffffff"></i
             ></a>
           </div>
         </div>
       </nav>
     </header>
-    <div class="men007">
-      <button>Men</button>
-    </div>
-    <div class="women007">
-      <button>Women</button>
-    </div>
     <main>
       <img src="img/w.png" class="slide" alt=""/>
       <img src="img/new 2.png" class="slide" alt="" />
       <img src="img/men5.png" class="slide" alt="" />
     </main>
-    <div class="nav1">
-      <!-- Content for nav1 if needed  -->
+    <div class="button-container">
+      <button class="button button1">Men</button>
+      <button class="button button2">Women</button>
     </div>
-    <div class="free">
-    </div>
+<style>
+  @media only screen and (max-width: 768px) {
+    .button-container {
+  display: flex;
+}
+.button {
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 16px 32px;
+}
+
+.button1, .button2 {
+  padding: 16px 32px;
+  width: 50%;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border: none;
+  margin-top: 0;
+  display: inline-block;
+  background-color: white;
+  color: black;
+}
+
+.button1:hover, .button2:hover {
+  background-color: #ccc;
+}
+
+.button1:hover {
+  color: rgb(0, 0, 0);
+}
+
+.button2:hover {
+  color: rgb(7, 7, 7);
+}
+.button2 {
+  background-color: rgb(177, 179, 180); 
+  color: black; 
+}
+.button1 {
+  background-color: rgb(177, 179, 180); 
+  color: black; 
+}
+}
+  </style>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
