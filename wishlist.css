@@ -3,11 +3,30 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header {
-  background-color: #ffffff;
-  padding: 10px;
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust as needed */
+  background-color: rgb(47, 48, 47);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
 }
 
+/* Styles for navigation menu */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #ffffff;
+  position: fixed;
+}
 .back-button {
   text-decoration: none;
   color: black;
@@ -41,6 +60,18 @@ footer {
   height: 35px;
   font-size: 13px;
 }
+.arrow
+{
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  font-size: 25px;
+}
+.nothing h3
+{
+  color: rgb(250, 250, 250);
+  margin-left: -570px;
+  font-size: 21px;
+}
 .main {
   background: url(./img/Nothing.jpg) no-repeat;
   background-size: cover;
@@ -69,7 +100,7 @@ footer {
 }
 .wishlist {
   font-size: 22px;
-  margin-top: -200 px;
+  margin-top: -200px;
   margin-left: 570px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -100,5 +131,9 @@ footer {
     margin-top: 260px;
     width: 245px;
     margin-left: -20px;
+  }
+  .nothing h3
+  {
+    margin-left: -180px;
   }
 }
