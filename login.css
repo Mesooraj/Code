@@ -68,6 +68,105 @@ body {
 {
   display: none;
 }
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust as needed */
+  background-color: rgb(47, 48, 47);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Styles for navigation menu */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #ffffff;
+  position: fixed;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 50px;
+  margin-left: -50px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* Styles for search bar */
+.search-bar {
+  width: 350px;
+  line-height: 40px;
+  border-radius: 4px;
+  background: #f0ecec;
+}
+
+.search-bar input {
+  background: transparent;
+  border: 0;
+  outline: none;
+  width: 85%;
+  font-size: 12px;
+}
+
+.nav-right .search-bar i {
+  font-size: 13px;
+  color: #ece1e1;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.nav-right div {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.nav-right div p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #535252;
+}
+
+.nav-right div i {
+  font-size: 18px;
+  color: #535252;
+}
+
+.nav-right div ion-icon {
+  display: block;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: -60px;
+    font-size: 22px;
+}
+
+.nav-left i {
+  font-size: 20px;
+  background-color: #f1efef;
+  padding: 10px;
+  border-radius: 50%;
+  display: none;
+}
+
 /* Media query for mobile devices */
 @media only screen and (max-width: 480px) {
   .singinn{
@@ -132,5 +231,46 @@ body {
   {
     display: block;
     margin-left: 85px;
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  /* Display hamburger icon */
+  .nav-left i {
+    display: block;
+  }
+
+  /* Adjust header height for small screens */
+  .fixed-header {
+    height: 60px;
+  }
+  .nav-left ul li
+  {
+    display: none;
+  }
+  /* Hide search bar on small screens */
+  .search-bar {
+    display: none;
+  }
+
+  /* Adjust margin for right side navigation items */
+  .nav-right div {
+    margin: 0 8px;
+  }
+
+  /* Adjust font size for navigation text */
+  .nav-right div p {
+    font-size: 10px;
+  }
+
+  /* Display ion-icons for right side navigation on small screens */
+  .nav-right div ion-icon {
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: -20px;
+    font-size: 24px;
   }
 }

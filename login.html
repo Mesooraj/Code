@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page | Drescod.com</title>
     <link rel="stylesheet" href="login.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
         body {
             margin: 0;
@@ -118,7 +125,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body><header class="fixed-header">
+  <nav>
+    <div class="img">
+      <img src="img/Logo.png" width="200px 20px" height="200px 20px" />
+    </div>
+    <div class="nav-left">
+      <ul class="nav-menu">
+        <li>Men</li>
+        <li>Women</li>
+        <li>Help</li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+        <input
+          type="text"
+          placeholder="Search for fashion, brands and more"
+        />
+      </div>
+      <div>
+        <ion-icon name="search-outline"></ion-icon>
+      </div>
+      <div class="logo239">
+        <a href="wishlist.html"
+          ><ion-icon name="heart-outline"></ion-icon></i
+        ></a>
+      </div>
+    </div>
+  </nav>
+</header>
     <div class="singinn">
         <img src="img/Lovepik_com-450070204-Flat illustration portraying secure login.png"  style="height: 400px; width: 400px;">
     </div>
@@ -130,8 +167,15 @@
             <button>Log in</button>
             <p><a href="#">Forgot password?</a></p>
         </form>
-        <p>Don't have an account? <a href="#">Sign up</a></p>
-        
+        <p>Don't have an account? <a href="#">Sign up</a></p>  
     </div>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </body>
 </html>
