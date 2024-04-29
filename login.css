@@ -67,16 +67,15 @@ body {
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 480px) {
-/* Centering the login box */
-.login-box {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 90%; /* Limit the width for mobile screens */
-  padding: 20px; /* Add padding for better spacing */
-  background-color: #ffffff; /* Background color for contrast */
-  border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
-}
+  .login-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .singinn
+  {
+    margin-left: 200px;
+    margin-top: 50px;
+  }
 }
