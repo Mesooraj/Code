@@ -73,7 +73,7 @@ footer {
   font-size: 17px;
 }
 .main {
-  background: url(./img/Nothing.jpg) no-repeat;
+  background: url(./img/8.jpg) no-repeat;
   background-size: cover;
   height: 200px;
   background-position: 50% 50%;
@@ -107,7 +107,7 @@ footer {
 
 @media only screen and (max-width: 780px) {
   .main {
-    background: url(./img/Nothing.jpg) no-repeat;
+    background: url(./img/8.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     background-position: 50% 50%;
