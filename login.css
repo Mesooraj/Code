@@ -42,12 +42,6 @@ body {
   border-radius: 4px;
   margin: 10px 0;
 }
-
-::placeholder {
-  font-weight: 500;
-  color: #9e9c9c;
-}
-
 .login-box p {
   text-align: left;
   font-size: 14px;
@@ -108,32 +102,10 @@ nav {
 .nav-left ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 0px 0px;
+  color: #ffffff;
+  margin-left: 100px;
 }
-
-/* Styles for search bar */
-.search-bar {
-  width: 350px;
-  line-height: 40px;
-  border-radius: 4px;
-  background: #f0ecec;
-}
-
-.search-bar input {
-  background: transparent;
-  border: 0;
-  outline: none;
-  width: 85%;
-  font-size: 12px;
-}
-
-.nav-right .search-bar i {
-  font-size: 13px;
-  color: #ece1e1;
-  margin-right: 15px;
-  margin-left: 10px;
-}
-
 .nav-right div {
   margin: 0 10px;
   text-align: center;
@@ -149,16 +121,16 @@ nav {
   font-size: 18px;
   color: #535252;
 }
-
 .nav-right div ion-icon {
-  display: block;
+    display: block;
     font-size: 20px;
     color: #ffffff;
     margin-left: 50px;
-    margin-right: -60px;
+    margin-right: -50px;
     font-size: 22px;
+    justify-content: space-between;
+    align-items: center;
 }
-
 .nav-left i {
   font-size: 20px;
   background-color: #f1efef;
