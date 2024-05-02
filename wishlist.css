@@ -155,11 +155,10 @@ footer {
   }
   .Logo220
 {
-  margin-top: -722px;
+  margin-top: -717px;
   margin-left: 55px;
   font-size: 15px;
   font-family: "Plus Jakarta Sans", sans-serif;
-}
 }
 .login-box button {
   width: 80%;
@@ -172,7 +171,7 @@ footer {
   margin-left: 24px;
 }
 .arrow1{
-  margin-left: -210px;
+  margin-left: -156px;
   font-size: 15px;
 }
 .arrow{
@@ -190,5 +189,16 @@ footer {
   display: flex;
   align-items: center;
   z-index: 1000;
+}
+.Logo360 ion-icon
+{
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-right: 2px;
+  font-size: 22px;
+  justify-content: space-between;
+  align-items: center;
 }
 }
