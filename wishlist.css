@@ -155,7 +155,7 @@ footer {
   }
   .Logo220
 {
-  margin-top: -720px;
+  margin-top: -722px;
   margin-left: 55px;
   font-size: 15px;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -168,16 +168,16 @@ footer {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  margin-top: 260px;
+  margin-top: 305px;
   margin-left: 24px;
 }
-.arrow p{
-  margin-left: -130px;
+.arrow1{
+  margin-left: -210px;
   font-size: 15px;
 }
 .arrow{
-  font-size: 23px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 5px;
 }
 .fixed-header {
   position: fixed;
