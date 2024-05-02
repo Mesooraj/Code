@@ -150,14 +150,9 @@ footer {
     width: 245px;
     margin-left: -20px;
   }
-  .nothing h3
-  {
-    margin-left: 20000px;
-    font-size: 105px;
-  }
   .Logo220
 {
-  margin-top: -779px;
+  margin-top: -730px;
   margin-left: 55px;
   font-size: 15px;
 }
@@ -172,9 +167,8 @@ footer {
   margin-left: 24px;
 }
 .arrow p{
-  margin-left: 10px;
-  align-items: center;
-  justify-content: space-between;
+  margin-left: -130px;
+  font-size: 20px;
 }
 .arrow{
   font-size: 23px;
