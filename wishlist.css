@@ -192,13 +192,9 @@ footer {
 }
 .Logo360 ion-icon
 {
-  display: block;
   font-size: 20px;
   color: #ffffff;
-  margin-left: 60px;
-  margin-right: 2px;
+  margin-left: 00px;
   font-size: 22px;
-  justify-content: space-between;
-  align-items: center;
 }
 }
