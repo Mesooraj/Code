@@ -155,7 +155,7 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
@@ -203,6 +203,7 @@ nav {
   {
     display: block;
     margin-left: 85px;
+    margin-top: 150px;
   }
   .nav-menu {
     display: none;
