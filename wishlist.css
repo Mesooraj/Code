@@ -101,7 +101,7 @@ footer {
 }
 .Logo220
 {
-  margin-top: -541px;
+  margin-top: -531px;
   margin-left: 40px;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -112,7 +112,7 @@ footer {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  margin-top: 200px;
+  margin-top: 240px;
   margin-left: 24px;
 }
 .login-box button {
@@ -123,8 +123,47 @@ footer {
 
 }
 .login-box{
-  margin-top: -60px;
+  margin-top: -50px;
 }
+.dropbtn {
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-right: -60px;
+  font-size: 22px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: -10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  Z-index: 1;
+  margin-left: -30px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #efeeee;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #282323 ; border-radius: 10px;}
 
 @media only screen and (max-width: 780px) {
   .main {
@@ -190,11 +229,15 @@ footer {
   align-items: center;
   z-index: 1000;
 }
-.Logo360 ion-icon
+.dropbtn
 {
   font-size: 20px;
   color: #ffffff;
   margin-left: -15px;
   font-size: 22px;
+}
+.dropdown-content
+{
+  margin-left: -130px;
 }
 }
