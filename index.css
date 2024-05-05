@@ -46,6 +46,7 @@ nav {
 .img
 {
   margin-top: 12px;
+
 }
 /* Styles for search bar */
 .search-bar {
@@ -205,11 +206,6 @@ main {
 .dropdown:hover .dropbtn {background-color: #e6e6e6 ; border-radius: 10px;}
 /* Media query for smartphones */
 @media only screen and (max-width: 768px) {
-  /* Hide navigation menu on small screens */
-  .nav-menu {
-    display: none;
-  }
-
   /* Display hamburger icon */
   .nav-left i {
     display: block;
@@ -256,10 +252,7 @@ main {
 
   /* Adjust styles for specific elements */
   .img {
-    width: 10px;
-    margin-left: -50px;
-    margin-top: -190px;
-    height: 10px;
+display: none;
   }
   /* Hide or show specific elements */
   .recommended-dresses,
@@ -287,5 +280,44 @@ main {
   margin-top: -205px;
   margin-left: 170px;
   position: fixed;
+}
+.Wish
+{
+  font-size: 25px;
+  margin-left: 2px;
+}
+.Account
+{
+  font-size: 25px;
+  margin-left: 2px;
+}
+.cart
+{
+  font-size: 25px;
+  margin-left: 225px;
+  
+}
+.dropbtn
+{
+  margin-left: 5px;
+  font-size: 25px;
+  margin-top: -5px;
+  display: none;
+}
+.cart p
+{
+display: none;
+}
+.Wish p 
+{
+  display: none;
+}
+.Account p
+{
+  display: none;
+}
+.fixed-header
+{
+  background-color: hsl(0, 70%, 60%);
 }
 }
