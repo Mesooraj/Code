@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(255, 255, 255);
+  }
+  
+  .login-box {
+    background: #ffffff;
+    padding: 30px;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the login box horizontally */
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .login-box input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ffffff;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  .login-box p {
+    text-align: left;
+    font-size: 14px;
+    color: #0951ec;
+    margin: 30px 0 10px;
+  }
+  
+  .login-box p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .singinn
+  {
+     margin-left: 200px;
+     margin-top: 100px;
+  }
+  .babulogo
+  {
+    display: none;
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Adjust as needed */
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Styles for navigation menu */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #ffffff;
+    position: fixed;
+  }
+  
+  .nav-left,
+  .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img {
+    width: 50px;
+    margin-left: -50px;
+  }
+  
+  .nav-left ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px 0px;
+    color: #ffffff;
+    margin-left: 100px;
+  }
+  .nav-right div {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .nav-right div p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #535252;
+  }
+  
+  .nav-right div i {
+    font-size: 18px;
+    color: #535252;
+  }
+  .nav-right div ion-icon {
+      display: block;
+      font-size: 20px;
+      color: #ffffff;
+      margin-left: 70px;
+      margin-right: -70px;
+      font-size: 22px;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .nav-left i {
+    font-size: 20px;
+    background-color: #f1efef;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    .singinn{
+      display: none;
+    }
+    .login-box {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .login-box {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: transparent;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+    }
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-box input[type="text"],
+    .login-box input[type="password"],
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .login-box button {
+      background-color: #f02525;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .login-box p {
+      text-align: center;
+      margin-top: 15px;
+    }
+    ::placeholder {
+      font-weight: 500;
+      color: #333;
+    }
+    
+    .login-box p {
+      text-align: left;
+      font-size: 14px;
+      color: #131313;
+      margin: 30px 0 10px;
+    }
+    
+    .login-box p a {
+      text-decoration: none;
+      color: #359cf0;
+    }
+    .babulogo
+    {
+      display: block;
+      margin-left: 85px;
+      margin-top: 150px;
+    }
+    .nav-menu {
+      display: none;
+    }
+  
+    /* Display hamburger icon */
+    .nav-left i {
+      display: block;
+    }
+  
+    /* Adjust header height for small screens */
+    .fixed-header {
+      height: 60px;
+    }
+    .nav-left ul li
+    {
+      display: none;
+    }
+    /* Hide search bar on small screens */
+    .search-bar {
+      display: none;
+    }
+  
+    /* Adjust margin for right side navigation items */
+    .nav-right div {
+      margin: 0 8px;
+    }
+  
+    /* Adjust font size for navigation text */
+    .nav-right div p {
+      font-size: 10px;
+    }
+  
+    /* Display ion-icons for right side navigation on small screens */
+    .nav-right div ion-icon {
+      display: block;
+      font-size: 20px;
+      color: #ffffff;
+      margin-left: 10px;
+      margin-right: -20px;
+      font-size: 24px;
+    }
+  }
+  

@@ -318,6 +318,6 @@ display: none;
 }
 .fixed-header
 {
-  background-color: hsl(0, 70%, 60%);
+  background-color: hsl(0, 0%, 100%);
 }
 }
